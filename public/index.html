@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<title>Soundboard</title>
+
+<h2>Engineering Soundboard</h2>
+<p>Play a sound in the Protonet Engineering Office</p>
+
+<button id="eng-fanfare">Engineering fanfare</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+  $("button").on("click", function() {
+    $.ajax({
+      url: "./play?sound=" + this.id,
+      type: "POST",
+      success: function() {
+        alert("This sound is now playing in the Protonet Engineering Office.");
+      },
+      error: function() {
+        alert("An unknown error happend. :(");
+      }
+    });
+    return false;
+    
+  });
+</script>
