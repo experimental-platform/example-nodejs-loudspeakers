@@ -1,6 +1,6 @@
 # NodeJS Sound Example for Experimental Platform
 
-The code is easy to understand: It uses mplayer for playing a sound located in the ``sounds`` directory.
+[The code](https://github.com/experimental-platform/example-speaker/blob/master/index.js) is easy to understand: It uses mplayer for playing a sound located in the ``sounds`` directory.
 
 ## Requirements
 
@@ -9,7 +9,7 @@ The code is easy to understand: It uses mplayer for playing a sound located in t
 
 ## Installation
 
-    git clone git@github.com:experimental-platform/example-speakers.git
-    cd example-speakers
-    git remote add platform ssh://dokku@your-box.local:8022/example-speakers
+    git clone git@github.com:experimental-platform/example-speaker.git
+    cd example-speaker
+    git remote add platform ssh://dokku@your-box.local:8022/example-speaker
     git push platform master
