@@ -1,6 +1,6 @@
-# NodeJS Sound Example for Experimental Platform
+# Sound Example for Experimental Platform
 
-[The code](https://github.com/experimental-platform/example-speaker/blob/master/index.js) is easy to understand: It uses mplayer for playing a sound located in the ``sounds`` directory.
+[The node.js code](https://github.com/experimental-platform/example-speaker/blob/master/index.js) only contains a few lines and is easy to understand. It uses [mplayer](https://help.ubuntu.com/community/MPlayer) for playing a sound located in the ``sounds/`` directory.
 
 ## Requirements
 
