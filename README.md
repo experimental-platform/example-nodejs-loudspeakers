@@ -9,7 +9,7 @@
 
 ## Installation
 
-    git clone git@github.com:experimental-platform/example-speaker.git
+    git clone https://github.com/experimental-platform/example-speaker.git
     cd example-speaker
     git remote add platform ssh://dokku@your-box.local:8022/example-speaker
     git push platform master
