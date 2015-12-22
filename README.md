@@ -1,6 +1,6 @@
 # Sound Example for Experimental Platform
 
-[The node.js code](https://github.com/experimental-platform/example-speaker/blob/master/index.js) only contains a few lines and is easy to understand. It uses [mplayer](https://help.ubuntu.com/community/MPlayer) for playing a sound located in the ``sounds/`` directory.
+[The node.js code](https://github.com/experimental-platform/example-nodejs-loudspeakers/blob/master/index.js) only contains a few lines and is easy to understand. It uses [mplayer](https://help.ubuntu.com/community/MPlayer) for playing a sound located in the ``sounds/`` directory. There's also an example written in [Ruby on Rails](https://github.com/experimental-platform/example-rails-loudspeakers).
 
 ## Requirements
 
@@ -9,7 +9,7 @@
 
 ## Installation
 
-    git clone https://github.com/experimental-platform/example-speaker.git
-    cd example-speaker
-    git remote add platform ssh://dokku@your-box.local:8022/example-speaker
+    git clone https://github.com/experimental-platform/example-nodejs-loudspeakers.git
+    cd example-nodejs-loudspeakers
+    git remote add platform ssh://dokku@your-box.local:8022/example-nodejs-loudspeakers
     git push platform master
